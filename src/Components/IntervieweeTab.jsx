@@ -101,9 +101,7 @@ const IntervieweeTab = () => {
             candidate.chatHistory &&
             candidate.chatHistory.length > 0 &&
             !startOver &&
-            !continueInterview &&
-            !welcomeBackModalRef.current
-    );
+            !continueInterview     );
     if (showWelcomeBackModal) {
         return (
             <WelcomeBackModal
